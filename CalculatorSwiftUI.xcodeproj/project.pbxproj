@@ -29,9 +29,22 @@
 		2CBBCD5C2CC26E950089085D /* CalculatorSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2C712AD62CF1E0AC00781C73 /* Exceptions for "CalculatorSwiftUI" folder in "CalculatorSwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2CBBCD412CC26E940089085D /* CalculatorSwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2CBBCD442CC26E940089085D /* CalculatorSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C712AD62CF1E0AC00781C73 /* Exceptions for "CalculatorSwiftUI" folder in "CalculatorSwiftUI" target */,
+			);
 			path = CalculatorSwiftUI;
 			sourceTree = "<group>";
 		};
@@ -171,7 +184,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					2CBBCD412CC26E940089085D = {
 						CreatedOnToolsVersion = 16.0;
